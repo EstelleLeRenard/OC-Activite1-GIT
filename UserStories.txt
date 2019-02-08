@@ -1,0 +1,30 @@
+Qu'est ce qu'une User Story ?
+
+Définition : 
+
+Une User Story est une description simple et compréhensible d'une fonctionnalité à valeur business. Elle met en avant le besoin de l'utilisateur.
+Elle est décrite dans un langage naturel pour pouvoir être compris par chaque acteur projet.
+
+
+
+Structure d'une User Story
+
+on utilise en règle générale la structure suivante : 
+
+En tant que [utilisateur], je veux [action souhaitée par l'utilisateur] afin de [but de l'utilisateur]
+
+
+Afin de valider une user story on définit des conditions d'acceptance.
+
+Exemple: 
+
+En tant que joueur, je veux pouvoir annoter le plan afin de me souvenir de mon expérience de jeu dans la zone
+
+Conditions d'acceptances
+1 / Au clic sur le bouton "Annoter", une pop-up permet à l'utilisateur de noter ces impressions et informations dans un champs texte. Au clic sur le bouton "valider", un repère visuel apparait sur le plan.
+
+2/Au clic sur le repère visuel d'une annotation, la pop up s'ouvre affichant le texte sauvegardé. Au clic sur le bouton supprimer, un message de confirmation s'affiche "Êtes-vous sur(e) de vouloir supprimer cette note ?" + 1 bouton Oui, un bouton Annuler.
+
+3/Au clic sur le repère visuel d'une annotation, la pop up s'ouvre affichant le texte sauvegardé. Au clic sur le bouton supprimer, un message de confirmation s'affiche "Êtes-vous sur(e) de vouloir supprimer cette note ?" + 1 bouton Oui, un bouton Annuler. Au clic sur le bouton OUI, la note est supprimée ainsi que le repère visuel sur la carte et l'utilisateur retourne à la carte.
+
+4/Au clic sur le repère visuel d'une annotation, la pop up s'ouvre affichant le texte sauvegardé, Au clic sur le bouton supprimer, un message de confirmation s'affiche "Êtes-vous sur(e) de vouloir supprimer cette note ?" + 1 bouton Oui, un bouton Annuler. Au clic sur le bouton annuler, l'utilisateur revient à la pop up d'annotation.
